@@ -1,0 +1,1563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    
+}
+
+@font-face {
+    font-family: neotriad;
+    src: url(fonts/NeotriadFree-1jzAg.otf);
+}
+
+.main{
+    width: 100%;
+   
+color: white;
+background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+    padding: 0 15px;
+}
+
+/*navbar*/
+
+#nav{
+    width: 100%;
+    height: 100px;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+#nav h4{
+    font-size: 7vw;
+    color: white;
+        /*font-size: 2.5vw; for pc*/
+}
+
+#nav button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 4vw;
+    border: 2px solid white;
+}
+
+/*THE BIG FONT*/
+#bigfont{
+    width: 100%;
+    height: 150px;
+    /*background-color: bisque;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#bigfont h1{
+font-size: 18vw;
+color: white;
+font-family: neotriad;
+
+}
+
+/*location, global,web dev*/
+
+#icons1{
+    width: 100%;
+    height: 500px;
+   /* background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#box1 {
+    /*background-color: blue;*/
+    width: 100%;
+}
+
+#box1 i{
+    color: green;
+    font-size: 6vw;
+}
+#box1 h3{
+    font-size: 4vw;
+    color: white;
+    font-weight: 200;
+}
+#box1 h4{
+    color: gray;
+    font-weight: 100;
+}
+
+/*BOOXXXX2*/
+
+#box2 {
+    /*background-color: blue;*/
+    width: 100%;
+    margin-top: 30px;
+}
+
+#box2 i{
+  color: white;
+    font-size: 6vw;
+}
+#box2 h3{
+    font-size: 4vw;
+    color: white;
+    font-weight: 200;
+}
+#box2 h4{
+    color: gray;
+     font-weight: 100;
+}
+
+/*BBBBBBBBBBBBOOOXXXXX3*/
+#box3 {
+    /*background-color: blue;*/
+    width: 100%;
+    margin-top: 30px;
+}
+
+#box3 i{
+  color: rgb(19, 82, 255);
+    font-size: 6vw;
+}
+#box3 h3{
+    font-size: 4vw;
+    color: white;
+    font-weight: 200;
+}
+#box3 h4{
+    color: gray;
+     font-weight: 100;
+
+}
+
+#image1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -180px;
+}
+
+#image1 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+@media (min-width:768px) {
+    
+/*navbar*/
+
+#nav{
+    width: 100%;
+    height: 100px;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+#nav h4{
+    font-size: 2vw;
+    color: white;
+        /*font-size: 2.5vw; for pc*/
+}
+
+#nav button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 2vw;
+    border: 2px solid white;
+}
+
+/*THE BIG FONT*/
+#bigfont{
+    width: 100%;
+    height: 150px;
+    /*background-color: bisque;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#bigfont h1{
+font-size: 15vw;
+color: white;
+margin-top: 250px;
+}
+
+/*location, global,web dev*/
+
+#icons1{
+    width: 100%;
+    height: 500px;
+   /* background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    /*background-color: blue;*/
+    width: 100%;
+
+}
+
+#box1 i{
+    color: green;
+    font-size: 2vw;
+}
+#box1 h3{
+    font-size: 2vw;
+    color: white;
+    font-weight: 200;
+}
+#box1 h4{
+    color: gray;
+    font-weight: 100;
+}
+
+/*BOOXXXX2*/
+
+#box2 {
+    /*background-color: blue;*/
+    width: 100%;
+    margin-top: 30px;
+}
+
+#box2 i{
+  color: white;
+    font-size: 2vw;
+}
+#box2 h3{
+    font-size: 2vw;
+    color: white;
+    font-weight: 200;
+}
+#box2 h4{
+    color: gray;
+     font-weight: 100;
+}
+
+/*BBBBBBBBBBBBOOOXXXXX3*/
+#box3 {
+    /*background-color: blue;*/
+    width: 100%;
+    margin-top: 30px;
+}
+
+#box3 i{
+  color: rgb(19, 82, 255);
+    font-size: 2vw;
+}
+#box3 h3{
+    font-size: 2vw;
+    color: white;
+    font-weight: 200;
+}
+#box3 h4{
+    color: gray;
+     font-weight: 100;
+
+}
+
+#image1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -130px;
+}
+
+#image1 img{
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+
+#approach{
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    color: white;
+}
+
+
+#approach h3{
+    color: gray;
+}
+
+
+
+}
+
+/*BACK TO MOBILE 1ST*/
+
+#approach{
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    color: white;
+}
+
+#approach h3{
+    color: gray;
+}
+
+/*india kerala intro part*/
+#bigtext{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  
+}
+
+#bigtext h1{
+font-size: 6vw;
+font-weight: 600;
+color: white;
+}
+
+#bigtext p{
+    margin-top: -20px;
+    color: gray;
+    font-size: 3vw;
+    padding: 30px;
+}
+
+/*MEDIA FOR PPPPPCCCCCCCCCCCCCCCCCCC*/
+
+@media (min-width:768px) {
+    #bigtext{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+   /* background-color: aqua;*/
+  
+}
+
+#bigtext h1{
+font-size: 4vw;
+font-weight: 400;
+color: white;
+}
+
+#bigtext p{
+    margin-top: -70px;
+    color: gray;
+    font-size: 1.5vw;
+    padding: 80px;
+}
+
+
+}
+
+
+/*back to mobile dev*/
+
+#nums{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+color: #0c0c0c
+}
+#nums h4{
+    font-size: 4vw ;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+@media (min-width:768px) {
+    #nums{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+color: #0c0c0c
+}
+#nums h4{
+    font-size: 2vw ;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+}
+
+
+/*the COMPLICATED DOTS AND IMG AND TEXT AND SHIT*/
+#imgtextbox{
+    width: 100%;
+   /* background-color: rgb(255, 0, 0);*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+#imgbox{
+    width: 100%;
+gap: 10px;
+    /*background-color: aliceblue;*/
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#imgbox img{
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+#boxx1 h2{
+    font-size: 10vw;
+}
+
+#boxx1 h3{
+    margin-top: 20px;
+    font-size: 5vw;
+}
+#boxx1 p{
+    margin-top: 5px;
+    font-size: 3vw;
+    color: gray;
+    text-align: justify;
+}
+
+/*BOX 2 GAHDAYM IT*/
+
+#imgbox2{
+    width: 100%;
+gap: 10px;
+    /*background-color: aliceblue;*/
+    display: flex;
+    justify-content: center;
+}
+
+#boxx2{
+    margin-top: 35px;
+}
+
+#imgbox2 img{
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+#boxx2 h2{
+    font-size: 10vw;
+}
+
+#boxx2 h3{
+    margin-top: 20px;
+    font-size: 5vw;
+}
+#boxx2 p{
+    margin-top: 5px;
+    font-size: 3vw;
+    color: gray;
+ text-align: justify;
+}
+
+/*BOX 3 GAHDAYM IT*/
+
+#imgbox23{
+    width: 100%;
+gap: 10px;
+    /*background-color: aliceblue;*/
+    display: flex;
+    justify-content: center;
+}
+
+#boxx3{
+    margin-top: 35px;
+}
+
+#imgbox3 img{
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+#boxx3 h2{
+    font-size: 10vw;
+}
+
+#boxx3 h3{
+    margin-top: 20px;
+    font-size: 5vw;
+}
+#boxx3 p{
+    margin-top: 5px;
+    color: gray;
+    text-align: justify;
+    font-size: 3vw;
+}
+
+
+
+/*now to the damn pc*/
+@media (min-width:768px) {
+    #imgtextbox{
+    width: 100%;
+   /* background-color: rgb(255, 0, 0);*/
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5px;
+gap: 50px;
+}
+
+#imgbox{
+    width: 100%;
+gap: 10px;
+    /*background-color: aliceblue;*/
+    display: flex;
+    justify-content: center;
+}
+
+#boxx1{
+width: 100%;
+margin-top: 40px;
+}
+
+#imgbox img{
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+#boxx1 h2{
+    font-size: 2vw;
+}
+
+#boxx1 h3{
+    margin-top: 20px;
+    font-size: 2vw;
+}
+#boxx1 p{
+    margin-top: 5px;
+    font-size: 1vw;
+    color: gray;
+    text-align: justify;
+}
+
+/*BOX 2 GAHDAYM IT*/
+
+#imgbox2{
+    width: 100%;
+gap: 10px;
+    /*background-color: aliceblue;*/
+    display: flex;
+    justify-content: center;
+}
+
+#boxx2{
+    width: 100%;
+}
+
+#imgbox2 img{
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+#boxx2 h2{
+    font-size: 2vw;
+}
+
+#boxx2 h3{
+    margin-top: 20px;
+    font-size: 2vw;
+}
+#boxx2 p{
+    margin-top: 5px;
+    font-size: 1vw;
+    color: gray;
+ text-align: justify;
+
+}
+
+/*BOX 3 GAHDAYM IT*/
+
+#imgbox23{
+    width: 100%;
+gap: 10px;
+    /*background-color: aliceblue;*/
+    display: flex;
+    justify-content: center;
+}
+
+#boxx3{
+  width: 100%;
+}
+
+#imgbox3 img{
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+#boxx3 h2{
+    font-size: 2vw;
+}
+
+#boxx3 h3{
+    margin-top: 20px;
+    font-size: 2vw;
+}
+#boxx3 p{
+    margin-top: 5px;
+    color: gray;
+    text-align: justify;
+    font-size: 1vw;
+}
+
+}
+
+/*back to mobile*/
+
+#portfolio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+#portfoliobig{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#portfoliobig h1{
+font-size: 15vw;
+}
+#portfoliobig p{
+    color: rgb(222, 222, 222);
+    font-size: 3vw;
+    text-align: justify;
+}
+@media (min-width:768px) {
+    #portfoliobig p{
+    color: rgb(222, 222, 222);
+    font-size: 1.5vw;
+    text-align: justify;
+    color: rgb(199, 199, 199);
+}
+}
+
+/*back to mobile*/
+
+#theworking{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+#imgone{
+    width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+#imgone img{
+    width: 92vw;
+    justify-content: end;
+}
+
+#textone{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#textone h3{
+font-weight: 400;
+}
+
+#textone i{
+    font-size: 8vw;
+ padding-bottom: 300px;
+
+}
+
+
+/*IMAGE TWO GAHDAMIT*/
+
+
+#imgtwo{
+    width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: -250px;
+}
+#imgtwo img{
+    width: 92vw;
+    justify-content: end;
+}
+
+#texttwo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#texttwo h3{
+font-weight: 400;
+}
+
+#texttwo i{
+    font-size: 8vw;
+ padding-bottom: 300px;
+
+}
+
+
+/*IMAGE THREE GAHDAMIT*/
+
+
+#imgthree{
+    width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: -250px;
+}
+#imgthree img{
+    width: 92vw;
+    justify-content: end;
+}
+
+#textthree{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#textthree h3{
+font-weight: 400;
+}
+
+#textthree i{
+    font-size: 8vw;
+ padding-bottom: 300px;
+
+}
+
+
+/*on PC*/
+
+@media (min-width:768px) {
+    #imgone img{
+    width: 97vw;
+    justify-content: end;
+}
+
+   #imgtwo img{
+    width: 97vw;
+    justify-content: end;
+}
+
+   #imgthree img{
+    width: 97vw;
+    justify-content: end;
+}
+
+#textone h3{
+font-weight: 400;
+font-size: 3vw;
+}
+#texttwo h3{
+font-weight: 400;
+font-size: 3vw;
+}
+#textthree h3{
+font-weight: 400;
+font-size: 3vw;
+}
+}
+
+#whoami{
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: -235px;
+    color: white;
+}
+
+#whoami h3{
+    color: gray;
+}
+
+#aboutme{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#mehpic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#mehpic img{
+    padding: 20px;
+border-radius: 40px;
+        justify-self: center;
+}
+
+@media (min-width:768px) {
+   #mehpic{
+    width: 100%;
+    display: flex;
+ padding-left: 30vw;
+    text-align: center;
+
+}
+   
+   
+    #mehpic img{
+border-radius: 40px;
+        width:40vw;
+}
+  #mehpic h4{
+border-radius: 40px;
+        width:40vw;
+        justify-content: center;
+}
+
+#mehparas{
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#mehparas h3{
+    font-weight: 100;
+    padding: 60px;
+   
+}
+
+
+#mehparas h5{
+    font-weight: 100;
+    color: gray;
+     padding: 60px;
+      margin-top: -70px;
+}
+
+}
+
+
+#mehparas{
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#mehparas h3{
+    font-weight: 100;
+}
+
+#mehparas h5{
+    font-weight: 100;
+    color: gray;
+}
+
+
+
+
+#pricing{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+
+
+
+#theplan{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+#theplan h1{
+    font-size: 6vw;
+}
+
+
+/*THE CARD GAME IS ON*/
+
+#thebigcard{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+#arrow{
+    width: 100%;
+   /* background-color: antiquewhite;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#arrow h3{
+    font-size: 5.5vw;
+}
+#arrow i{
+    font-size: 7vw;
+    color: green;
+}
+
+
+#thebigcard h2{
+    font-size: 6vw;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+#thebigcard h4{
+    margin-top: 18px;
+    color: rgb(52, 51, 51);
+    
+}
+
+#thebigcard h5{
+font-size: 4vw;
+font-weight: 200;
+margin-top: 15px;
+color: gray;
+}
+
+
+#theminicard{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#theminicard h5{
+    color: white;
+    font-weight: 900;
+}
+
+#theminicard h4{
+    color: white;
+}
+
+#theminicard i{
+    color: green;
+}
+
+#redcross i{
+    color: red;
+}
+
+#thewrapper{
+    width: 100%;
+}
+
+/*the pc*/
+
+@media (min-width:768px) {
+    #thewrapper{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+   /* background-color: crimson;*/
+    }
+ 
+    /*THE CARD GAME IS ON*/
+
+#thebigcard{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+    width: 35%;
+  
+}
+
+
+#arrow{
+    width: 100%;
+   /* background-color: antiquewhite;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#arrow h3{
+    font-size: 2vw;
+}
+#arrow i{
+    font-size: 2vw;
+    color: green;
+}
+
+
+#thebigcard h2{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+#thebigcard h4{
+    margin-top: 18px;
+    color: rgb(52, 51, 51);
+    
+}
+
+#thebigcard h5{
+font-size: 1.5vw;
+font-weight: 200;
+margin-top: 15px;
+color: gray;
+}
+
+
+#theminicard{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#theminicard h5{
+    color: white;
+    font-weight: 300;
+}
+
+#theminicard h4{
+    color: white;
+}
+
+#theminicard i{
+    color: green;
+}
+
+#thewrapper{
+    width: 100%;
+}
+
+#redcross i{
+    color: red;
+}
+
+}
+
+/*the mini card 2*/
+
+
+#thebigcard2{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+#arrow2{
+    width: 100%;
+   /* background-color: antiquewhite;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#arrow2 h3{
+    font-size: 5.5vw;
+}
+#arrow2 i{
+    font-size: 7vw;
+    color: green;
+}
+
+
+#thebigcard2 h2{
+    font-size: 6vw;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+#thebigcard2 h4{
+    margin-top: 18px;
+    color: rgb(52, 51, 51);
+    
+}
+
+#thebigcard2 h5{
+font-size: 4vw;
+font-weight: 200;
+margin-top: 15px;
+color: gray;
+}
+
+
+#theminicard2{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#theminicard2 h5{
+    color: white;
+    font-weight: 900;
+}
+
+#theminicard2 h4{
+    color: white;
+}
+
+#theminicard2 i{
+    color: green;
+}
+
+/*the mini card pc*/
+/*the pc*/
+
+@media (min-width:768px) {
+    #thewrapper{
+    display: flex;
+    width: 100%;
+   /* background-color: crimson;*/
+    }
+ 
+    /*THE CARD GAME IS ON*/
+
+#thebigcard2{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+    width: 35%;
+}
+
+#arrow2{
+    width: 100%;
+   /* background-color: antiquewhite;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#arrow2 h3{
+    font-size: 2vw;
+}
+#arrow2 i{
+    font-size: 2vw;
+    color: green;
+}
+
+
+#thebigcard2 h2{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+#thebigcard2 h4{
+    margin-top: 18px;
+    color: rgb(52, 51, 51);
+    
+}
+
+#thebigcard2 h5{
+font-size: 1.5vw;
+font-weight: 200;
+margin-top: 15px;
+color: gray;
+}
+
+
+#theminicard2{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#theminicard2 h5{
+    color: white;
+    font-weight: 300;
+}
+
+#theminicard2 h4{
+    color: white;
+}
+
+#theminicard2 i{
+    color: green;
+}
+
+#thewrapper{
+    width: 100%;
+}
+
+}
+
+/*the mini card 3*/
+
+
+#thebigcard3{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+#arrow3{
+    width: 100%;
+   /* background-color: antiquewhite;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#arrow3 h3{
+    font-size: 5.5vw;
+}
+#arrow3 i{
+    font-size: 7vw;
+    color: green;
+}
+
+
+#thebigcard3 h2{
+    font-size: 6vw;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+#thebigcard3 h4{
+    margin-top: 18px;
+    color: rgb(52, 51, 51);
+    
+}
+
+#thebigcard3 h5{
+font-size: 4vw;
+font-weight: 200;
+margin-top: 15px;
+color: gray;
+}
+
+
+#theminicard3{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#theminicard3 h5{
+    color: white;
+    font-weight: 900;
+}
+
+#theminicard3 h4{
+    color: white;
+}
+
+#theminicard3 i{
+    color: green;
+}
+
+/*the mini card pc*/
+/*the pc*/
+
+@media (min-width:768px) {
+    #thewrapper{
+    display: flex;
+    width: 100%;
+   /* background-color: crimson;*/
+    }
+ 
+    /*THE CARD GAME IS ON*/
+
+#thebigcard3{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+    width: 35%;
+}
+
+#arrow3{
+    width: 100%;
+   /* background-color: antiquewhite;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#arrow3 h3{
+    font-size: 2vw;
+}
+#arrow3 i{
+    font-size: 2vw;
+    color: green;
+}
+
+
+#thebigcard3 h2{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+#thebigcard3 h4{
+    margin-top: 18px;
+    color: rgb(52, 51, 51);
+    
+}
+
+#thebigcard3 h5{
+font-size: 1.5vw;
+font-weight: 200;
+margin-top: 15px;
+color: gray;
+}
+
+
+#theminicard3{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#theminicard3 h5{
+    color: white;
+    font-weight: 300;
+}
+
+#theminicard3 h4{
+    color: white;
+}
+
+#theminicard3 i{
+    color: green;
+}
+
+#thewrapper{
+    width: 100%;
+}
+
+}
+
+
+/*the Final page*/
+#thefinal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#thefinal h2{
+    font-size: 10vw;
+}
+
+#thefinal img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#thefinal button{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 45px;
+    font-size: 4vw;
+    margin-top: 25px;
+    font-weight: 800;
+}
+
+#thefinal p{
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 4.5vw;
+    font-weight: 500;
+}
+
+footer h1{
+  font-family: neotriad;
+    font-size: 18vw;
+    margin-top: 30px;
+}
+
+#totop{
+    display: flex;
+    align-items: center;
+gap: 150px;
+}
+
+#totop h3{
+ text-decoration: none;
+    color: white;
+    
+}
+
+@media (min-width:768px) {
+    
+/*the Final page*/
+#thefinal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#thefinal h2{
+    font-size: 4.5vw;
+}
+
+#thefinal img{
+    width: 40%;
+   height: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#thefinal button{
+    background-color: white;
+    color: black;
+    padding: 20px 35px;
+    border-radius: 65px;
+    font-size: 2vw;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+#thefinal p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+footer h1{
+  font-family: neotriad;
+    font-size: 18vw;
+    margin-top: 30px;
+}
+
+#totop{
+    display: flex;
+    align-items: center;
+gap: 1050px;
+}
+
+#totop h3{
+ text-decoration: none;
+    color: white;
+    
+}
+}
